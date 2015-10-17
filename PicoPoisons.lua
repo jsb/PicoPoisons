@@ -4,8 +4,7 @@ function PicoPoisons_Init()
         local enchantButton = getglobal("TempEnchant" .. i)
         local label = enchantButton:CreateFontString(enchantButton:GetName() .. "ChargesLabel", "ARTWORK", "NumberFontNormal")
         label:SetPoint("BOTTOMLEFT", enchantButton, "BOTTOMLEFT", 1, 1)
-        label:SetText("lol")
-        --label:Hide()
+        label:Hide()
     end
     
     -- hook BuffFrame_Enchant functions
